@@ -1,0 +1,14 @@
+.navigation__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation__link {
+  display: block;
+  padding: 20px;
+  background-color: var(--secondary-color);
+}
+
+.navigation__link.is-active {
+  background-color: var(--main-color);
+}

@@ -1,0 +1,11 @@
+:host {
+  margin: auto;
+  display: block;
+  max-width: 1000px;
+  background-color: var(--tertiary-color);
+  height: 100%;
+}
+
+.root__main-content {
+
+}
