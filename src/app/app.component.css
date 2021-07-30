@@ -1,11 +1,29 @@
 :host {
   margin: auto;
-  display: block;
-  max-width: 1000px;
-  background-color: var(--tertiary-color);
+  display: grid;
   height: 100%;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+  justify-items: center;
+  --max-content-width: 1000px;
 }
 
 .root__main-content {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: var(--tertiary-color);
+  width: 100%;
+  max-width: var(--max-content-width);
+}
 
+.root__navigation {
+  grid-row: 1;
+  grid-column: 2;
+  max-width: var(--max-content-width);
+}
+
+.root__articles {
+  grid-column: 1;
+  grid-row: 1 / span 2;
 }
