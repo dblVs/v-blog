@@ -6,6 +6,9 @@
   grid-template-columns: auto 1fr;
   grid-gap: 20px;
   justify-items: center;
+  background-image: url('../assets/main-background.jpg');
+  background-position: center;
+  background-size: cover;
   --max-content-width: 1000px;
 }
 
