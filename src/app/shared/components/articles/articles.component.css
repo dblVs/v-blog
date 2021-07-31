@@ -1,0 +1,7 @@
+.articles__moving-cliff {
+  top: 20%;
+  left: -10%;
+  bottom: -30%;
+  height: 100%;
+  position: fixed;
+}

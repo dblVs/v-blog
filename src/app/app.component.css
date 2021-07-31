@@ -1,4 +1,9 @@
 :host {
+  display: block;
+  height: 100%;
+}
+
+.root__container {
   margin: auto;
   display: grid;
   height: 100%;
@@ -6,10 +11,16 @@
   grid-template-columns: auto 1fr;
   grid-gap: 20px;
   justify-items: center;
-  background-image: url('../assets/main-background.jpg');
-  background-position: center;
-  background-size: cover;
   --max-content-width: 1000px;
+
+}
+
+.root__background {
+  position: fixed;
+  top: -60px;
+  left: -50px;
+  z-index: -1;
+  height: calc(100% + 120px);
 }
 
 .root__main-content {
