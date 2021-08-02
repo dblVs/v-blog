@@ -1,4 +1,5 @@
 import { InjectionToken, Type } from '@angular/core';
+import { NotFoundComponent } from '../../../not-found/not-found.component';
 
 export interface Article {
   name: string;
@@ -8,6 +9,9 @@ export interface Article {
 export const ARTICLES = new InjectionToken<Array<Article>>('Articles', {
   providedIn: 'root',
   factory() {
-    return []
+    return [{
+      name: 'Why i suck at programming',
+      component: NotFoundComponent
+    }]
   }
 })

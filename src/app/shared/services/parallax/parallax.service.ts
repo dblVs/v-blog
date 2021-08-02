@@ -19,5 +19,5 @@ export const parallax: Observable<Point> = fromEvent(document, 'mousemove').pipe
 );
 
 function normalizeExponentiallyAsPercent(percentage: number) {
-  return (percentage ** 2) * 4 * (percentage < 0 ? -1 : 1);
+  return ((percentage * 2) ** 2) * (percentage < 0 ? -1 : 1);
 }

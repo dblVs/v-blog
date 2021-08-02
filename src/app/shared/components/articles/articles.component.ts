@@ -1,10 +1,8 @@
 import { Component, Inject } from '@angular/core';
 import { map } from 'rxjs/operators';
-import { ARTICLES } from '../../services/articles/articles.service';
+import { Article, ARTICLES } from '../../services/articles/articles.service';
 import { parallax, Point } from '../../services/parallax/parallax.service';
 
-class Articles {
-}
 
 @Component({
   selector: 'app-articles',
@@ -20,7 +18,7 @@ export class ArticlesComponent {
   );
 
   constructor(
-    @Inject(ARTICLES) public articles: Array<Articles>
+    @Inject(ARTICLES) public articles: Array<Article>
   ) {
   }
 }
