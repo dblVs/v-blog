@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Mono";
+  src: url("assets/fonts/jb-mono.woff2") format("woff2");
+}
+
 body, p, dl, dd, dt, ul, li, ol, h1, h2, h3, h4, figure {
   margin: 0;
 }
@@ -39,4 +44,8 @@ html {
   overflow: hidden;
   clip: rect(0,0,0,0);
   border: 0;
+}
+
+:root {
+  font-family: Mono, sans-serif;
 }
