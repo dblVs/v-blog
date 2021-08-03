@@ -1,14 +1,25 @@
+:host {
+  display: block;
+}
+
 .navigation__container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navigation__item {
+  perspective: 75px;
+  perspective-origin: bottom;
+  margin: 10px;
 }
 
 .navigation__link {
   display: block;
   padding: 20px;
-  background-color: var(--secondary-color);
+  color: white;
+  font-size: 2rem;
+  transform: rotateZ(-15deg);
 }
 
-.navigation__link.is-active {
-  background-color: var(--main-color);
-}
