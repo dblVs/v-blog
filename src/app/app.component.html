@@ -1,11 +1,12 @@
-<img src="assets/main-background.jpg"
-     alt="Rocky beach background"
-     class="root__background"
-     [ngStyle]="backgroundParallax | async">
+<img
+  src="assets/main-background.jpg"
+  alt="Rocky beach background"
+  class="root__background"
+  [ngStyle]="backgroundParallax | async"
+/>
 <div class="root__container">
   <app-navigation class="root__navigation"></app-navigation>
-  <app-articles class="root__articles">
-  </app-articles>
+  <app-articles class="root__articles"></app-articles>
   <main class="root__main-content">
     <router-outlet></router-outlet>
   </main>

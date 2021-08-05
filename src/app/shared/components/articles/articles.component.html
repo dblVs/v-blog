@@ -1,10 +1,7 @@
 <h1 class="sr-only">Articles</h1>
-<img class="articles__moving-cliff"
-     [ngStyle]="cliffParallax | async"
-     src="assets/side-cliff.png"
-     alt="Cliff image">
+<img class="articles__moving-cliff" [ngStyle]="cliffParallax | async" src="assets/side-cliff.png" alt="Cliff image" />
 <ol *ngIf="articles.length">
   <li *ngFor="let article of articles">
-    <a>{{article.name}}</a>
+    <a>{{ article.name }}</a>
   </li>
 </ol>

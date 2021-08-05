@@ -7,16 +7,9 @@ import { NavigationComponent } from './shared/components/navigation/navigation.c
 import { ArticlesComponent } from './shared/components/articles/articles.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavigationComponent,
-    ArticlesComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, NavigationComponent, ArticlesComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

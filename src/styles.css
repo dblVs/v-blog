@@ -1,9 +1,21 @@
 @font-face {
-  font-family: "Mono";
-  src: url("assets/fonts/jb-mono.woff2") format("woff2");
+  font-family: 'Mono';
+  src: url('assets/fonts/jb-mono.woff2') format('woff2');
 }
 
-body, p, dl, dd, dt, ul, li, ol, h1, h2, h3, h4, figure {
+body,
+p,
+dl,
+dd,
+dt,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+figure {
   margin: 0;
 }
 
@@ -17,14 +29,12 @@ a {
   color: inherit;
 }
 
-
 :root {
   --main-color: #ef4f4f;
   --secondary-color: #ee9595;
   --tertiary-color: #ffcda3;
   --supporting-color: #74c7b8;
 }
-
 
 body {
   background-color: var(--supporting-color);
@@ -42,7 +52,7 @@ html {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   border: 0;
 }
 
