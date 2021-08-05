@@ -1,7 +1,16 @@
 .articles__moving-cliff {
-  top: 20%;
-  left: -10%;
   bottom: -30%;
+  display: none;
   height: 100%;
+  left: -10%;
   position: fixed;
+  top: 20%;
 }
+
+@media (min-width: 1440px) {
+  .articles__moving-cliff {
+    display: inline-block;
+  }
+}
+
+

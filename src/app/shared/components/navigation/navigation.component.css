@@ -5,20 +5,22 @@
 .navigation__container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   width: 100%;
 }
 
 .navigation__item {
+  margin: 10px 10px -25px;
   perspective: 75px;
   perspective-origin: bottom;
-  margin: 10px;
 }
 
 .navigation__link {
-  display: block;
-  padding: 20px;
+  background: #484848;
+  border: 15px solid white;
+  border-bottom-width: 25px;
   color: white;
+  display: block;
   font-size: 2rem;
-  transform: rotateZ(-15deg);
+  padding: 5px;
+  transform: rotateZ(-10deg);
 }
